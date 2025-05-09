@@ -6,4 +6,7 @@
   
 
 本文档未完全完成
-[查看上一代文档](https://th-mc.cn/master/%E6%80%9D%E6%9F%94%E4%B9%8B%E4%B9%A1-ThroughHomeMC%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.pdf)
+[查看上一代文档](/%E6%80%9D%E6%9F%94%E4%B9%8B%E4%B9%A1-ThroughHomeMC%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.pdf)
+
+
+此网站使用 [Docute](https://github.com/egoist/docute) 进行搭建，了你可以前往这个项目的网站支持它！

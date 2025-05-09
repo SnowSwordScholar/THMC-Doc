@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>思柔之乡官方文档</title>
+    <link rel="shortcut icon" href="https://th-mc.cn/favicon.ico">
+    <link rel="stylesheet" href="docute.css">
+  </head>
+  <body>
+    <div id="docute"></div>
+    <script src="docute.js"></script>
+    <script>
+      new Docute({
+		  title: '思柔之乡官方文档',
+          // 代码高亮配置
+		  highlight: [
+		    'typescript', 
+			'go', 
+			'python'
+			],
+          // 主题切换开关
+		  darkThemeToggler: true,
+          // 顶部banner配置
+		  banner: `府主好穷的， <a href="https://afdian.net/@th-mc">
+				   捐赠</a> <ExternalLinkIcon /> 来支持我们吧!`,
+          // 顶部导航栏配置
+		  nav: [
+			{
+			  title: '主页',
+			  link: '/'
+			},
+			{
+			  title: '官网',
+			  link: 'https://th-mc.cn'
+			}
+		  ],
+          // 侧边栏配置
+		  sidebar: [
+			// A sidebar item, with child links
+			{
+			  title: '开始',
+			  children: [
+				{
+				  title: '简介',
+				  link: '/开始/简介'
+				}
+			  ]
+			},
+			{
+			  title: '加入服务器',
+			  children: [
+			    {
+			      title: '申请白名单',
+			      link: '/加入服务器/申请白名单'
+			    },
+			    {
+			      title: '下载客户端',
+			      link: '/加入服务器/下载客户端'
+			    },
+			    {
+			      title: '我们的网站们',
+			      link: '/加入服务器/我们的网站们'
+			    }
+			  ]
+			},
+			{
+			  title: '进阶玩家',
+			  children: [
+			    {
+			      title: '服务器插件',
+			      link: '/进阶玩家/服务端插件'
+			    }
+			  ]
+			},
+			{
+			   title: '常见问题',
+			   children: [
+			     {
+			        title: '游戏戏无法启动',
+			        link: '/进阶玩家/游戏无法启动'
+			     }
+			   ]
+			}
+		  ]
+		})
+    </script>
+  </body>
+</html>
